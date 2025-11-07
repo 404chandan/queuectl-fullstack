@@ -78,6 +78,3 @@ npm run cli -- dlq-retry job1
 3. Start 2+ workers; enqueue several jobs; verify no overlaps (each picked once)
 4. Restart server; list jobs — data persists
 5. Use dashboard to monitor live status and manage DLQ
-
-## License
-MIT
